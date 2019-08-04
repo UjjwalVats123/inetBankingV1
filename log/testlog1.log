@@ -1,0 +1,52 @@
+2019-08-01 15:02:38,044 [main] INFO E-Banking - URL is opened
+2019-08-01 15:02:38,159 [main] INFO E-Banking - Entered Username
+2019-08-01 15:02:38,243 [main] INFO E-Banking - Entered Password
+2019-08-01 15:02:39,668 [main] INFO E-Banking - Clicked Login button
+2019-08-01 15:02:39,702 [main] INFO E-Banking - Login Test Passed
+2019-08-01 15:07:16,626 [main] INFO E-Banking - URL is opened
+2019-08-01 15:07:16,744 [main] INFO E-Banking - Entered Username
+2019-08-01 15:07:16,830 [main] INFO E-Banking - Entered Password
+2019-08-01 15:07:19,344 [main] INFO E-Banking - Clicked Login button
+2019-08-01 15:07:19,373 [main] INFO E-Banking - Login Test Passed
+2019-08-02 14:29:15,795 [main] INFO E-Banking - URL is opened
+2019-08-02 14:29:15,905 [main] INFO E-Banking - Entered Username
+2019-08-02 14:29:15,972 [main] INFO E-Banking - Entered Password
+2019-08-02 14:29:18,436 [main] INFO E-Banking - Clicked Login button
+2019-08-02 14:29:18,445 [main] INFO E-Banking - Login Test Passed
+2019-08-02 15:05:11,808 [main] INFO E-Banking - URL is opened
+2019-08-02 15:05:11,902 [main] INFO E-Banking - Entered Username
+2019-08-02 15:05:11,958 [main] INFO E-Banking - Entered Password
+2019-08-02 15:05:13,150 [main] INFO E-Banking - Clicked Login button
+2019-08-02 15:05:13,158 [main] INFO E-Banking - Login Test Passed
+2019-08-04 07:32:35,477 [main] INFO E-Banking - URL is opened
+2019-08-04 07:32:35,733 [main] INFO E-Banking - Entered Username
+2019-08-04 07:32:35,814 [main] INFO E-Banking - Entered Password
+2019-08-04 07:32:37,299 [main] INFO E-Banking - Clicked Login button
+2019-08-04 07:32:37,326 [main] INFO E-Banking - Login Test Passed
+2019-08-04 07:32:44,641 [main] INFO E-Banking - username provided
+2019-08-04 07:32:44,724 [main] INFO E-Banking - password provided
+2019-08-04 07:32:46,345 [main] INFO E-Banking - login passed
+2019-08-04 07:32:48,585 [main] INFO E-Banking - username provided
+2019-08-04 07:32:48,657 [main] INFO E-Banking - password provided
+2019-08-04 07:32:55,213 [main] WARN E-Banking - login failed
+2019-08-04 07:32:56,116 [main] INFO E-Banking - Screenshot taken
+2019-08-04 07:32:56,247 [main] INFO E-Banking - username provided
+2019-08-04 07:32:56,349 [main] INFO E-Banking - password provided
+2019-08-04 07:32:58,946 [main] WARN E-Banking - login failed
+2019-08-04 07:32:59,299 [main] INFO E-Banking - Screenshot taken
+2019-08-04 07:32:59,456 [main] INFO E-Banking - username provided
+2019-08-04 07:32:59,562 [main] INFO E-Banking - password provided
+2019-08-04 07:33:00,972 [main] INFO E-Banking - login passed
+2019-08-04 07:33:06,378 [main] INFO E-Banking - username provided
+2019-08-04 07:33:06,460 [main] INFO E-Banking - password provided
+2019-08-04 07:33:08,414 [main] WARN E-Banking - login failed
+2019-08-04 07:33:08,771 [main] INFO E-Banking - Screenshot taken
+2019-08-04 07:33:15,213 [main] INFO E-Banking - Username is provided
+2019-08-04 07:33:15,292 [main] INFO E-Banking - Password is provided
+2019-08-04 07:33:16,927 [main] INFO E-Banking - Clicked Submit
+2019-08-04 07:33:20,638 [main] INFO E-Banking - Providing customer details
+2019-08-04 07:33:20,812 [main] INFO E-Banking - Entered Customer Name
+2019-08-04 07:33:28,986 [main] INFO E-Banking - Validation started
+2019-08-04 07:33:29,354 [main] INFO E-Banking - Screenshot taken
+2019-08-04 07:33:29,354 [main] INFO E-Banking - Captured screenshot
+2019-08-04 07:33:29,354 [main] INFO E-Banking - User is not added successfully
