@@ -50,3 +50,8 @@
 2019-08-04 07:33:29,354 [main] INFO E-Banking - Screenshot taken
 2019-08-04 07:33:29,354 [main] INFO E-Banking - Captured screenshot
 2019-08-04 07:33:29,354 [main] INFO E-Banking - User is not added successfully
+2019-08-07 13:15:50,407 [main] INFO E-Banking - URL is opened
+2019-08-07 13:15:51,236 [main] INFO E-Banking - Entered Username
+2019-08-07 13:15:51,305 [main] INFO E-Banking - Entered Password
+2019-08-07 13:15:53,017 [main] INFO E-Banking - Clicked Login button
+2019-08-07 13:15:53,024 [main] INFO E-Banking - Login Test Passed
