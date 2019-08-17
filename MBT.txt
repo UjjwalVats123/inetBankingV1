@@ -1,0 +1,118 @@
+At the end of this session I will be well versed with the concept of MBT. The course is aimed to provide -  
+1) Knowledge and understanding about- 
+a) Difference between MBT and Traditional Test designing approach.
+b) Intro and overview of concept of MBT.
+c) How MBT works.
+d) Misleading expectations from MBT.
+e) Advantages of MBT.
+f) Different MBT tools available in Market.
+2) Skills and Abilities - 
+a) To identify the right project where MBT can be used.
+b) MBT Modelling Notations.
+c) To define the business process or test journey in simpilstic model format.
+d) Generating Test Cases from Model.
+e) Generating traceability Matrix.
+
+Challenges of Traditional Test Design - 
+1) Ever increasing requirements and stringent timelines.
+2) Budget shrink and increasing expectations of quality.
+3) Complex requirement to be delivered at challenging timelines with expectations of quick turnaround for test case generation.
+4) Low Reusability of the existing Test Cases.
+5) High maintenance efforts for maintaining the scripts for the long running projects.
+6) Inconsostent test cases duet human dependency leading to quality issues.
+7) Automation is considered only at execution where as sustantial efforts are spent on Planning in STLC.
+8) Percentage of defects detected in the early stages of the software development life cycle is low.
+9) No Mechanism to visualize business flow of a requirement leading to defect (Process/requirement/Design) seepage resulting in increased cost of failure and schedule slippages.
+10) Challenges in finalising test suite for optimum test coverage.
+11) Need to seperately develop the test cases for manual and automation test execution.
+12) High dependency on SME
+13) No readily available test cases for standard processes like eTOM, ITIL etc..
+
+What is MBT and how does it work?
+MBT is a formal method to validate software systems by generating test cases systematically from models. A test suite can be generated according to defined coverage criteria.
+It is used for auto test case generation. All the requirements are converted into models using BPMN notations. These models are used to generate test cases for manual test execution and skeleton test scripts for automation tools like QTP, Selenium etc.. Any requirements would be captured with minimal efforts by modification of the existing models and the impacted test cases due to this functional change quickly. All the test cases are directly uploaded from tool to any Test Management Tools. All the models are stored under version control repository using tools like SVN.
+
+What is MBT and how does its work?
+Identify the requirement and convert it into mdoels using BPMN notations.
+Import the BPMN models into the MBT tool.
+Alternatively if models are pre-existing (ARIS/VISIO) can be directly imported into the MBT tool.
+These Models are then used to generate the test cases automatically using the MBT tool.
+Generate the automation scripts for automation execution like QTP, Selenium using the MBT tool features/ external exporters.
+Upload the test scripts i.e. Manual or Automation to Test Management Tools/spreadsheet.
+
+Use of MBT in a project - 
+Test Analysts are responsible for developing the business process models.
+Test Analyst interacts with Design Team to produce or convert requirements into MBT Models.
+Test Analyst details out the model using the tool notations.
+Test Analyst maintains the models under configuration control using tool like SVN and upload the generated test scripts to test managemennt tool.
+Manual or automation engineers execute the test script directly from test management tool.
+For a successful implementation of MBT the team must have : 
+Knowledge about the System under test (SUT)
+Basic knowledge in testing and MBT tool philosophy
+SUT functional requirements
+
+MBT Modelling Notations
+Pre/post (state based)
+Transition Based
+Functional
+History based
+Operational
+Statistical
+Data-flow
+
+Choosing a notation
+For MBT, transition based and pre/post notations are the most wodely used.
+
+Guidelines - 
+If the system is data-oriented then one should use pre/post notation
+If the system is control-oriented then one should use transition based notation
+
+Pre/Post notations - 
+Data-oriented systems have state variables, rich types (sets, relations, sequences)
+Operations to access and manipulate data
+Data-oriented systems are most easily specified using pre/post notations.
+
+We use the B abstract machine notations for our pre/post models because it is typical example of a pre/post notation, it has good tool support and it is easily learned by programmers since many of its contructs are similar to programming languages. eg - Z, VDM, Java Modelling Language or UML with OCL pre/post conditions)
+
+There are 4 main steps to write a pre/post model - 
+1) Chose a high level test objective.
+2) Design the signatures of the operations in the model.
+3) Design the states variables of the models and chose their types.
+4) Write the preconditions and post condition of each operations.
+---------------------------DataModel(UML)----------------------------------
+
+Transition based notations - 
+In control-oriented systems the set of available operations depends on state. Control-oriented systems are most easily specified using transition based notations.
+These focus on describing the transitions between different states of the system.Typically, they are graphical node and arc notations such as FSM, where the nodes of the FSM repersent the major states of the system and the arc represents the actions or operations of the system.
+
+Where can MBT be used?
+MBT can be used for the following - 
+Interfaces				Domains				Testing Types
+WebServices				Telecom				Component Functional Testing
+Web/User Interfaces			BFSI				System Integration Testing
+Applications				Logistics			Compliance Testing
+Middleware				Retail/eCommerce		User Acceptance Testing
+Embedded Software			Engineering System		Business Process Testing
+Protocols								Implementation Testing
+
+There should be continuous enhancement in the SUT release on release. Could be sued for all delivery models like waterfall, agile etc..
+
+MBT - Misleading Exceptations and Pitfalls
+Advantages of MBT
+Popular MBT tools available in market - 
+Depending on the testing need and available budget, a project can decide to invest in any of the either OpenSOurce or Commencial tools :
+
+MBT Tool Name		Company Name		Modelling Language Used
+Creator			Conformiq Inc.		Codeless Activity Diagrams
+Designer		Conformiq Inc.		UML/Java
+Spec Explorer		Microsoft Inc.		Coded UI
+Test Optimal		Test Optimal LLC	FSM/UML
+MaTeLo			All4Tec			Markov chains
+
+Typical MBT Modelling Techniques - 
+Activity Diagrams(AD) - Specify business/work flows using standard activity diagram symbols, refine activities and decision based on action keywords and data object from repository
+Save SD - Action keywords and data objects generated from interface objects
+Structured Diagrams(SD) - Define extenal SUT interfaces available for testing based on predefined interface objects.  
+
+
+
