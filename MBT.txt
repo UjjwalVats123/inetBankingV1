@@ -114,5 +114,37 @@ Activity Diagrams(AD) - Specify business/work flows using standard activity diag
 Save SD - Action keywords and data objects generated from interface objects
 Structured Diagrams(SD) - Define extenal SUT interfaces available for testing based on predefined interface objects.  
 
+Modelling - 
+
+Designer Paradigm - 
+Conformiq Modeller
+IBM Rational Rhapsody
+IBM Rational Software Architect
+Sparx Systems Enterprise Architect
+MagicDraw, Papyrus
+
+Creator Paradigm - 
+Conformiq Creator
+BPM - Visio, ARIS, RSA
+XSD/WSDL
+
+Other Inputs - 
+iRise Studio
+QTP recorded tests
+Selenium recorded tests
+
+----------------------------
+Requirements and Test Management
+CA Rally
+HP ALM
+HP Quality Center
+IBM Rational DOORS
+IBM Rational ReqPro
+Microsoft TFS
+Test Link
+Jenkins
+Git
+SVN
+
 
 
