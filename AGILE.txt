@@ -1,0 +1,163 @@
+What is Agile methodology?
+AGILE methodology is a practise that promotes continuous integration of development and testing throughout the software development lifecycle of the project. Both development and testing activities are concurrent unlike the Waterfall model.
+The Agile software development emphasizes on four core values - 
+1) Individual and team interactions over processes and tools.
+2) Working software over comprehensive documentation.
+3) Customer collaboration over contract negotiation.
+4) Responding to change over following a plan.
+
+Agile Vs Waterfall Method - 
+Agile and Waterfall method are two different methods for software development process. Though they are different in their approach, both methods are usesful at times, depending on the requirement and the type of the project.
+Agile Model
+Agile Method proposes incremental and iterative approach to software design.
+The agile process is broken into individual models that designers work on.
+The customer has early and frequent opportunities to look at the product and make decision and changes to the project.
+Agile Model is considered unstructured compared to the waterfall model
+Small projects can be implemented very quickly. For large projects, it is difficult to estimate the development time.
+Errors can be fixed in the middle of the project.
+Development process is iterative, and the project is executed in short (2-4) weeks iterations.
+Documentation attends less priority that software development.
+Testers and developers work together
+At the end of every sprints, user acceptance is performed.
+
+Waterfall Model
+Development of the software flows sequentially from start point to end point.
+The design process is not broken into individual models.
+The customer can only see the product at the end of the project.
+Waterfall model are more secure because they are so plan oriented.
+All sorts of projects can be estimated and completed.
+Only at the end, the while product is tested. If the requirement error is found or any changes have to be made, the project has to start from the beginning.
+Development process is phased, and the phase is much bigger that iteration. Every phase ends with the detailed description of the next phase.
+Documentation is a top priorityx and can even use for training staff and upgrade the software with another team.
+Testers and developers work seperately.
+User acceptance is performed at the end of the project.
+
+Agile Methodology - 
+Scrum
+Crystal Methodologies
+DSDM (Dynamic Software Development Method)
+Feature driven develoment (FDD)
+Lean Software development
+Extreme Programming (XP)
+
+Scrum - 
+SCRUM is an agile development method which concentrates specifically on how to manage tasks within a team-based development environment. Basically, Scrum is derived from activity that occurs during a rigby match. Scrum believes in empowering the development team and advocates working in small teams (say 7 to 9 members). It consists of three roles, and their responsibilities are explained as follows:
+Scrum Master - responsible for setting up theteam, sprint meeting and removes obstacles to progress.
+Product Owner - creates product backlog, prioritises the backlog and is responsible for the delivery of the functionality at each iteration.
+Scrum Team - Team manages its own work and organizes the work to complete the sprint or cycle.
+
+Product Backlog - 
+This is a repository where requirements are tracked with details on the no. of requirements (user stories) to be completed for each release. It should be maintained and prioritised by the Product Owner, and it should be distributed to the scrum team. Team can also request for a new requirement addition or modification or deletion.
+
+Scrum Practises - 
+
+Sprint Planning (Product Backlog, Team Structure and Capabilities,Business Conditions)
+Sprint (Sprint Backlog, Sprint burndown charts, 30 days plan)
+Daily Scrum Meet (Daily 15 min status meeting, Tasks discussion and impledimens, Decision Making)
+Sprint Review Meeting(Review Meeting and Informal setup as and when required)
+Sprint Retrospective Meet (Process Improvement, Scrum master resposibility and Prioritization on the tasks and decisions)
+
+Process Flow of Scrum methodologies - 
+Process flow of scrum testing is as follows:
+1) Each iteration of a scrum is known as Sprint.
+2) Product backlog is a list where all details are entered to get the end-product
+3) During each Sprint, top user stories of Product backlog are selected and turned into Sprint backlog
+4) Team works on the defined sprint backlog
+5) Team checks for the daily work
+6) At the end of the sprint, team delivers product functionality
+
+Extreme Programming (XP) - 
+Extreme Programming technique is very helpful when there is constantly changing demands or requirements from the customers or when they are not sure about the functionality of the system. It advocates frequent "releases" of the product in short development cycles, which inherently improves the productivity of the system and also introduces a checkpoint where any customer requirements can be easily implemented. The XP develops software keeping customers in target.
+
+Business requirements are gathered in terms of stories. All those stories are stored in a place called the parking lot.In this type of methodology, releases are based on the shorter cycles called Iterations with span of 14 days time period. Each iteration includes phases like coding, unit testing and system testing where at each phase some minor or major functionality will be built in the application.
+Project requirements > User Stories > Test Cases > Tasks > Completion > Story Metrics
+
+Phases - (6 phases) - 
+Planning
+Analysis
+Design
+Execution
+Wrapping
+Closure
+
+What is Agile Testing? Process, Strategy, Test Plan, Life Cycle
+
+--------------------------------------------------------------------------------------------------------------------------------
+Edureka on Agile
+--------------------------------------------------------------------------------------------------------------------------------
+Whay do we need Agile?
+What is Agile?
+Key terms of Agile.
+Advantages of Agile.
+How to implement Agile?
+Various Agile frameworks.
+
+In waterfall application will be shipped as a one whole application(monolithic). In order to meet the changing needs of customer Agile came in picture.
+Waterfall Model - 
+Requirement Gathering >> Software Design/Architect >> Implementation >> Verification >> Maintenance
+This Methodology can't really fly in today's world because there are multiple changes being pushed evry single day.
+
+Agile - 
+1st Iteration - Plan >> Design >> Develop >> Test >> Deploy >> Review >> Launch
+2nd Iteration - Plan >> Design >> Develop >> Test >> Deploy >> Review >> Launch
+3rd Iteration - Plan >> Design >> Develop >> Test >> Deploy >> Review >> Launch
+
+Key terms in Agile - 
+
+Values of Agile - 
+1) People over processes and tools.
+2) Working Software over comprehensive documentation.
+3) Customer Collaboration over Rigid Contracts. - Agile is feedback dependent
+4) Responding to Change Rather than following a plan.
+
+Principles of Agile - 
+Satisfy the Customer
+Welcoming changing requirements
+Deliver Working Software Frequently
+Frequent Iterations with Stakeholders
+Motivated Individuals
+Face to Face Communication
+Measure by Working Software
+Maintain constant pace
+Reflect and adjust accordingly
+
+How to implement Agile?
+SCRUM
+eXtreme Programming
+LEAN
+KANBAN
+CRYSTAL
+
+SCRUM - 
+Product Owner (Manager) - He is the guy who holds the responsibility to make sure the application is deployed as and when commited. At the same time the application is build exactly the way it has to be built.
+Scrum Master (TL) - He is the person who handles the day to day operations like running the meetings, handling the tasks that have to be done.
+Team - Dev, Testers and so on.
+
+DEVELOPMENT - SPRINTS (2 to 4 weeks)
+1) Product Backlogs - Description of requirements.
+2) Sprint Backlog - Developers refer to these Sprint Backlogs.
+3) Sprint Planning - Meetings and Discussions. - During the Sprint Planning the product owner will actually explain how he imagines the end goal or the product or application to look like.
+4) Daily Scrum - 15 minutes meeting that happens every day where the testers and developers or any other role that we have in the team can discuss what happened, are their any obstacles/blockages, do they need any help. At last what are they planning to do today or tommorow.
+5) Sprint Review - This occurs at the end of the user story or backlog that we have been working on.
+
+At the end of 2 weeks/ the sprint time we have Sprint Meeting.
+
+Product Backlog - Sprint Planning - Sprint Backlog - Scrum Team (Dailt Scrum) - Sprint Review - Scrint Retrospective.
+
+Extreme Peogramming - 
+Project Requirements >> Stories >> Test Cases >> Tasks >> Completion
+Customer Input >> Iteration Planning Meeting >> Customer Testing >> Acceptance Tests
+
+LEAN - 
+Eliminate Waste
+Aplify Learning
+Empower the team
+Builf Integrity
+See the whole
+
+KANBAN - 
+Kanban is similar to scrum the difference here is in case of scrum we have smaller chunks of backlogs that we are supposed to work on for the next 2 weeks or 3 weeks. In case of KANBAN it is a continuous process so their is no such thing as sprint. What we do in KANBAN is we have a list of tasks that are supposed to be done.
+	Build Queue			Test Queue			Ship Queue
+	1st Build	>>		testing 1st build	>> 	Shipping 1st BUild
+	2nd Build	>>		testing 2nd build	>> 	Shipping 2nd BUild
+The idea is whatever tasks have been achieved will be replaced by some other tasks in the queue.
