@@ -1,0 +1,245 @@
+===================================================================================================================================================
+SALESFORCE ADMIN and ADVANCED ADMIN Hands on Training
+SECTION 1
+Course Content - 
+
+
+What is a Salesforce??
+It is a CRM product of Salesforce.com Inc
+Co-founded by Marc Benioff
+On-cloud and on-demand
+Standard Applications and Customizations
+Force.com Platform
+Easily Integrated to other on premise and on cloud applications.
+
+What is a CRM and ERP?
+Case Study - 
+Go Mobile Ltd is a company that manufactures and sells mobile phones. So, what are the various business units of Go Mobile??
+Business Units - 
+Enterprise Unit (Manufacturing Unit) - Forms the back office. They are not customer centric, they are enterprise centric. - ERP - Enterprise Resource Planning
+Inventory Management
+Resource Planning
+Product Planning
+Product Development
+Manufacturing
+Product Cost
+Shipping
+Payment
+
+Sales Unit - They form the front office. They interact with the customer. Only they know like how many customers are existing in the market. What are their feedback, what are their issues, what do they expect from the product. Customer Centric. - CRM
+Customer Information	Calendering
+Marketing		Reports
+Opportunities
+Emails
+
+Service Unit - They form the front office. They interact with the customer. Only they know like how many customers are existing in the market. What are their feedback, what are their issues, what do they expect from the product. Customer Centric. - CRM - Customer Relationship Management
+Social Customer Service (Twitter, Facebook)
+Social Customer Center (24*7 support)
+Emails
+
+CRMs existing in market - 
+	Salesforce.com CRM
+	Siebel CRM
+	Peoplesoft CRM
+	Sugar CRM
+	Microsoft Dynamics CRM and many more.
+Similarly, ERPs - 
+	SAP
+	Oracle e-business Suite
+	JD Edwards
+	SAGE
+	Momentum and many more.
+
+Lets talk about CRMs, we know that their are so many CRMs existing in the market then why is that Salesforce.com is the world's no 1 CRM.
+The answer is Cloud Computing. It is a ON DEMAND CRM.
+Cloud Computing seperates the applicating from its hardware and software dependencies. Cloud Computing vendors take care of backend hardware and software dependencies.
+Enterprise are moving to the cloud - 
+Mainframe >> Mini >> Client/Server >> Cloud Computing
+
+Cloud Computing - 
+Network based computing >> Network means Internet >> Computing referes to Development and Services >> So, Internet based development and services. >> Shared resources >> ONCLOUD and ON DEMAND
+ON DEMAND - means you pay for what you use.
+
+Models of Cloud Computing - 
+SaaS - Software as a Service - Salesforce, Netsuite, Taleo, Zoho, Zimbra
+PaaS - Platform as a Service - Google app Engine, Force.com, Azure
+IaaS - Infrastructure as a Service - Rackspace, BlueCloud
+
+On-Cloud Vs On-Premise
+On-Premise means the physical setup is their at the location or in the premises. (Server Boxes) - Hidden Cost.
+No upfront licence fees, lower implementation costs, no hardware infrastructure, free upgrades etc..
+
+Why CLoud Computing - 
+Automatic Upgrades, Secure, Easy to use, Integrated, Half the cost.
+All applications are automaticallt upgraded. - Zero down time.
+
+Salesforce Career Paths - 
+Administratora - is a person who maintains the Salesforce organisation, who deals with the user, who deals with profiles, who deals with the security settings, who decides who can see what, who can access what in the application, who handles the servers.
+Developers - A developer is a person who develops the application. A developer does customisations.
+Consultants - is a point of contact between the technical team and the business. He is the person who understands the business and converts the functional requirements into technical specifications.
+
+Salesforce Admin Certifications - 
+Adminitrator					Implementation Expert
+Manage and configure Salesforce			Design Sales and Service Cloud Solutions
+Administrator (ADM 201)				Sales Cloud Consultant
+Advanced Administrator				Service Cloud Consultant
+
+SALESFORCE EDITIONS -
+Ex - Samsung Galaxy Note1,2,3,4,5,6
+When a business decides on to purchase for a CRM for their business to enhance their business. Their are many editions available in salesforce.
+Salesforce Editions available are -
+Salesforce IQ - Paid - 25$
+Professional - Paid - 65$
+Enterprise - Paid - 125$
+Unlimited - Paid -  250$
+Developer - Free - its pourpose is only for learning and development. MAx 2 users. Max 5 MB data. - Unlimited access.
+
+In order to get this information - Go to Salesforce.com >> Products >> Pricing.
+
+PERSONAL and COMPANY Setup - 
+login >> login.salesforce.com >> enter userid and password.
+Go to Name and then Settings -> 
+Personal
+	Personal Information - firstname, lastname, mobile, address and so on.
+	Change My Password - setting up new password
+	Language and time zone
+	Grant Account Login Access
+	My Groups
+	Reset my security token
+	Connections
+	Login History
+	Approver Settings
+	Advanced User Details
+	Authentication Settings for External Systems
+
+COMPANY SETUP - 
+	Click Setup >> Setup is basically workarea which basicallt provides tools for Configuring Salesforce Application.
+	Search >> Company >> Company Profile ->
+					Company Information
+					Fiscal Year
+					Business Hours
+					Holidays
+					Language Settings
+
+PROD Vs TEST
+Types of Environments - 
+Production Environments.
+Development/Test Environments.
+
+Production Environment - 
+Salesforce.com environments that have active paying users accessing business critical data.
+https://login.salesforce.com
+
+Development/Test Environments - 
+Salesforce.com environments used strictly for developing and testing apps.
+Contains Test Data that are not business critical.
+Either Sandbox(Paid) or Developer Edition(Free)
+https://login.salesforce.com (Developer Editions)
+https://test.salesforce.com (Sandbox)
+
+Sandboxes and Developer Editions
+Developer Edition - 2 CRM Licences - 5 MB - Signup is free
+Full Sandbox - Same as Prod - Same as Prod-  Paid
+Partial Copy Sandbox - Same as Prod - 5 GB data (about 2.5M records) - Paid
+Developer Pro Sandbox - Same as Prod - 1 GB data (about 0.5M records) - Paid
+Developer Sandbox - Same as Prod - 200 MB data (about 100K records) - Paid
+
+Salesforce Chatter - 
+It is a powerful colaboration software that empowers employees to connect, colaborate, share files, share data and expertise and all in real time. We can very much related this to facebook, twitter.
+How to setup salesforce chatter?
+Go to chatter Tab >> click on profile to go to progile page >> Feed
+Feed - This pages basically lists down all your posts and also posts of people you follow. We can also put updates or share a file or share a link, or a poll or a question.
+Overview - Here we can see and edit information about ourselves and basically the files owned and groups. Groups means groups created by you and groups in which you are a member, Followers, Following.
+======================================================================================================================================================================================
+Section 2 - 
+In this section we will understand the sales lifecycle. Then we will be analysing our functional requriement (case study).
+Sales LifeCycle - If required pen it down afterwards.
+1) Standard Salesforce Applications and Custom Salesforce Applications
+A functional Requirement - 
+Star Pharma Ltd. manufactures and sells five different pharmaceutical products - Pedialyte, Similac, Ultrazyme, Ketonex and Flexiflo. They target pharmacies in multi speciality hospitals to sell their priducts. The field reps (FR) call and go to many hospitals to talk to the physicians about their products. The Field Sales Manager (FSM) needs to track the effort of this team and determine which all products are selling.
+To help and support the sales effort, the fields reps carry product samples that they distribute to physicians showing interest. These samples are at a cost to the company so FSM needs to track how many samples they are giving out.
+Ultimately, FSM needs to know what his reps are doing, which samples they are giving out, and how they are building the customer base. He also needs details of the following - 
+1) Track number of visits.
+2) Couple of reports arounf # of visits, products sold etc...
+3) Whenever a final state of product is done, an automated email needs to be sent to their supervisor.
+
+As part of promotional offers , Star Pharma gives out 20% discount on all purchases above 1000$ but upon approval by the supervisor.
+
+Step1 - List down the various objects and their corresponding fields that you think should be a part of StarPharma app - 
+Setup >> Create >> App
+Setup >> Create >> Object(Pharma Products)
+Setup >> Search >> Tabs >> Select Pharma Product from Dropdown 
+
+Object Relationships in Salesforce - 
+1:M - Master-Detail and Lookup
+	1 parent record is related to multiple child object records
+
+Master Detail 							Lookup
+Child records should be associated to a parent			Optional. Child records need not be associated to a parent
+Cascade record deletion						No cascase record deletion
+Standard objects cannot be a detail object (child object)	No such restrictions
+Master detail relationship field is required on the 		
+page layout of the details object.				Lookup field on child not necessarily required
+Rollup summary fields can be created on the parent object.	Cannot be established here.
+Detail object inherits the sharing and security settings of
+its master record.						No effect on security.
+
+M:M - 2 record of parent is related to multiple records of child object and vice versa.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before starting with salesforce app development lets go through several salesforce terminologies - 
+App - Collection of components
+Object (table) - particular type of information
+Fields (columns) - attributes of an object
+Records (rows) - holds information
+Tabs - UI component to display object data
+
+Standard Components and Custom Components - 
+Standard (Available in Salesforce)
+Custom (Created by us)
+Standard Component				Custom Component
+Available in Salesforce				Created by us
+Cannot be created				Can be created
+Can be viewed					Can be viewed
+Can be modified but to a certain extent		Can be modified to any extent
+Cannot be deleted				Can be deleted
+
+Master Detail means parent object must exist in order to create a child object.
+
+1:M - 
+	The relationship field gets created in the child object.
+	The related list gets created in the parent object.
+M:M - (Pharma Product : Invoice)
+	This can be achieved by creating 2 Master Detail relationships.
+	M-D1
+		Parent - Pharma Product
+		Child - Junction Object
+	M-D2
+		Parent - Invoice
+		Child - Junction Object
+
+Schema Builder - A dynamic environment for viewing and modifying all the objects and relationships in your app.
+
+
+
+_______________________________________________________________________________________________________________________________________________________________________
+Things covered - 
+What is Salesforce?
+Cloud Computing in Salesforce. - SaaS, PaaS, IaaS etc...
+Salesforce Editions - Salesforce IQ - Paid - 25$, Professional - Paid - 65$, Enterprise - Paid - 125$, Unlimited - Paid -  250$
+Designing and Building Data Model - 
+Creating App, Objects and Tabs
+Creating Fields with various field types
+1:M relationship - Master Detail and Lookup relationships
+M:M relationship - Creating 2 Master Details relationships between objects and using a Junction object.
+Schema Builder
+Implementing business logics - 
+	By using Formula Fields and Cross Object Formulas,Validation Rules, Rollup Summary fields, Field Dependencies
+Setting up User Interface
+	Page Types and Page Elements
+	Page Layouts
+	Home Page Layouts and Home Page Components
+	List Views
+Customizing Standard Salesforce Application
+
+
