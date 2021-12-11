@@ -9,7 +9,35 @@ import org.testng.annotations.Test;
 import com.inetbanking.pageObjects.LoginPage;
 import com.inetbanking.utilities.XLUtils;
 
+
+
 public class TC_LoginDDT_002 extends BaseClass {
+
+	@Test
+	public void loginTestNewUser() throws IOException {
+
+		logger.info("URL is opened");
+		LoginPage lp = new LoginPage(driver);
+		lp.setUserName(username);
+		logger.info("Entered Username");
+		lp.setPassword(password);
+		lp.clickSubmit();
+		logger.info("Clicked Login button");
+
+		//Now we will verify if we have logged in or not
+		if(driver.getTitle().contentEquals("GTPL Bank Manager HomePage")){
+			Assert.assertTrue(true);
+			logger.info("Login Test Passed");
+		}
+		else {
+			logger.info("Login Test Failed");
+			captureScreen(driver, "loginTest");
+			Assert.assertTrue(false);
+		}
+
+	}
+
+	/* DISABLED BELOW TESTS
 	@Test(dataProvider="LoginData")
 	public void loginDDT(String username, String password) throws IOException {
 	LoginPage lp = new LoginPage(driver);
@@ -34,7 +62,7 @@ public class TC_LoginDDT_002 extends BaseClass {
 	}
 	}
 	@DataProvider(name="LoginData")
-	String[][] getData() throws IOException{
+	Object[][] getData() throws IOException{
 	
 		String path	= System.getProperty("user.dir")+"/src/test/java/com/inetbanking/testData/LoginData.xlsx";
 		int rownum = XLUtils.getRowCount(path, "Sheet1");
@@ -57,5 +85,5 @@ public class TC_LoginDDT_002 extends BaseClass {
 		catch(Exception e){
 			return false;
 			}
-	}
+	}*/
 }
